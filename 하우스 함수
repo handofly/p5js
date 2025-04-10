@@ -1,0 +1,23 @@
+# function setup() {
+  createCanvas(500, 500);
+}
+
+function draw() {
+  background(220);
+  for ( let i = 0; i<=4; i++){
+    house(100*i,250);
+
+  }
+}
+
+function house(){
+ 
+  translate(50,50);
+  fill(250,0,0)
+  triangle(0,0,0,50,25,25);
+  fill(0,0,250);
+  rectMode(CENTER);
+  rect(-30,25,30,30);
+  
+  
+}
